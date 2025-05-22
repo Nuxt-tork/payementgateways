@@ -34,5 +34,10 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'sslcommerz' => [
+        'store_id' => env('SSLCOMMERZ_STORE_ID'),
+        'store_password' => env('SSLCOMMERZ_STORE_PASSWORD'),
+        'url' => env('SSLCOMMERZ_URL', 'https://sandbox.sslcommerz.com/gwprocess/v4/api.php'),
+    ],
 
 ];
