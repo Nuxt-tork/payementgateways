@@ -13,6 +13,8 @@ class PaymentController extends Controller
 
         // dd(env('SSLCOMMERZ_URL'));
         // Prepare order data
+
+        
         $storeId = config('services.sslcommerz.store_id');
         $storePassword = config('services.sslcommerz.store_password');
         $sslcommerzUrl = config('services.sslcommerz.url');

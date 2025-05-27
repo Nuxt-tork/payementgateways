@@ -14,16 +14,20 @@
             <!-- SSLCommerz Button -->
             <form action="{{ route('payment.checkout') }}" method="POST">
     @csrf
-    <button type="submit" class="payment-btn sslcommerz">
+    <button type="submit" class="payment-btn sslcommerz" style="margin-bottom: 4px;">
         Pay with SSLCommerz
+    </button>
+
+    <button type="submit" class="payment-btn bkash">
+        Pay with Bcash
     </button>
 </form>
 
 
             <!-- bKash Button -->
-            <a href="#" class="payment-btn bkash">
+            <!-- <a href="#" class="payment-btn bkash">
                 Pay with bKash
-            </a>
+            </a> -->
 
             <!-- Nagad Button -->
             <a href="#" class="payment-btn nagad">
